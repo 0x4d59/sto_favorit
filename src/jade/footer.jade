@@ -1,0 +1,29 @@
+//- footer.jade
+div.wrapper__footer
+  footer.footer
+    div.footer-wrap.cf
+      a(href="")
+        div.footer__logo.logo Сервисный Центр 
+          span Фаворит
+      div.footer__anchor-list
+        div.footer-anchors
+          div.footer-anchor__left
+            ul.footer-anchor-list
+              each val in ['Главная','О компании','Корпоративным клиентам']
+                a(href="")
+                  li.footer-anchor-item= val
+          div.footer-anchor__right
+            ul.footer-anchor-list
+              each val in ['Покупка запчастей','Запись на СТО','Контакты']
+                a(href="")
+                  li.footer-anchor-item= val
+      div.footer__contacts
+        div.footer-contacts
+          a(href="")
+            div.footer-contacts__num 8 (812) 143-33-45
+          div.footer-contacts__address Санкт-Петербург, ул. Щербакова 76Ф Время работы: 9:00 - 20:00
+    div.footer__tag-list
+      ul.footer-tag-list
+        each val in ['Автосервис','Покупка запчастей','Санкт-Петербург','Автосервис','Покупка запчастей','Санкт-Петербург']
+          a(href="")
+            li.footer-tag-item= val
