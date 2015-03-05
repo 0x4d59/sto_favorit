@@ -1,0 +1,77 @@
+// header.less
+
+body{
+  background: @bodyColor;
+}
+
+.wrapper{
+  width: @width;
+  margin: 0 auto;
+}
+
+.header{
+  padding: 25px 60px 20px 60px;
+  background: @white;
+}
+
+.header__logo{
+  float: left;
+  margin-top: 7px;
+}
+
+.logo{
+  font-size: 21px;
+  font-family: 'robotolight', sans-serif;
+  color: @grey;
+  span{
+    font-family: 'robotobold', sans-serif;
+    color: @black;
+    font-weight: bold;
+  }
+
+}
+
+.header__nav{
+  float: left;
+  margin-left: 80px - 35px;
+  margin-top: 12px;
+}
+
+.nav-item{
+  font-family: 'robotolight', sans-serif;
+  color: @black;
+  font-size: 16px;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline-block;
+  margin-left: 35px;
+  &:hover{
+    color: @grey;
+  }
+}
+
+.header__tel{
+  float: left;
+  margin-left: 85px;
+}
+
+.num{
+  font-family: 'robotolight', sans-serif;
+  color: @grey;
+  font-size: 24px;
+  span{
+    color: @black;
+    font-family: 'robotobold', sans-serif;
+  }
+}
+
+.tel__call{
+  text-align: right;
+}
+
+.call{
+  font-family: 'robotolight', sans-serif;
+  color: @blue;
+  font-size: 14px;
+  text-decoration: underline;
+}
