@@ -3642,3 +3642,37 @@ body {
   margin-left: 15px;
   margin-top: 30px;
 }
+.repair {
+  height: 683px;
+  background: url(../img/bg3.jpg) no-repeat;
+  padding: 75px 0 0px 90px;
+}
+.repair__title {
+  font-size: 30px;
+  font-family: 'robotoblack', sans-serif;
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+.repair__description {
+  font-family: 'robotothin', sans-serif;
+  font-size: 18px;
+  color: #898989;
+  background: url(../img/car.png) no-repeat 605px 35px;
+  min-height: 265px;
+  padding-top: 45px;
+}
+.repair-description-text {
+  width: 500px;
+  line-height: 30px;
+}
+.repair__button {
+  padding: 40px 450px;
+}
+.repair-button {
+  margin: 0;
+}
+.repair__labels {
+  background: url(../img/label2.jpg) no-repeat;
+  height: 80px;
+  margin-top: 10px;
+}
