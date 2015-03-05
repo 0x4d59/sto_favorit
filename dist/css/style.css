@@ -3676,3 +3676,57 @@ body {
   height: 80px;
   margin-top: 10px;
 }
+.review {
+  background: #ffffff;
+  padding: 85px 120px 90px 120px;
+}
+.review__title {
+  font-size: 36px;
+  font-family: 'robotoblack', sans-serif;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  text-align: center;
+}
+.review__review-list {
+  margin-top: 50px;
+}
+.review-list-item {
+  float: left;
+  margin-left: 100px;
+}
+.review-list-item:first-child {
+  margin-left: 0;
+}
+.review-list-item--one .review-item-person__photo {
+  background: url(../img/avatar1.png) no-repeat;
+}
+.review-list-item--two .review-item-person__photo {
+  background: url(../img/avatar2.png) no-repeat;
+}
+.review-item {
+  width: 440px;
+}
+.review-item__person {
+  margin-left: 5px;
+}
+.review-item-person__photo {
+  width: 76px;
+  height: 76px;
+  float: left;
+}
+.review-item-person__name {
+  float: left;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.review-item-person-name {
+  color: #c0c0c0;
+  font-family: 'robotothin_italic', sans-serif;
+  font-size: 18px;
+}
+.review-item__person-review {
+  font-family: 'robotothin', sans-serif;
+  font-size: 18px;
+  color: #898989;
+  margin-top: 75px;
+}
