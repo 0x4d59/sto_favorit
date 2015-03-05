@@ -1,0 +1,31 @@
+//- greetings.jade
+
+div.wrapper__greetings
+  div.greetings.cf
+    div.greetings__title Добро пожаловать на сто фаворит
+    div.greetings__description  ООО «ФАВОРИТ» высококачественно и в кратчайшие сроки выполняет все виды работ по техническому обслуживанию и ремонту легковых и бронированных автомобилей «Mercedes», «Volkswagen», «Audi», «BMW», «Toyota», «Nissan», «Mitsubishi», «Ford», «Volvo», а также автомобилей других зарубежных  и отечественных производителей.
+    div.greetings__features
+      div.greetings-features
+        div.greetings-features__title  Особенности обслуживания в наших автосервисах:
+        div.greetings-features__carousel
+          div.greetings-features-carousel
+
+            div.carousel.slide#greetings-carousel(data-ride="carousel")
+              div.carousel-inner(role="listbox")
+                div.item.active.greet-ico.greet-ico--one
+                div.item.greet-ico.greet-ico--two
+                div.item.greet-ico.greet-ico--three
+                div.item.greet-ico.greet-ico--four
+              ol.carousel-indicators.greetings-indicator
+                  li.active(data-target="#greetings-carousel", data-slide-to="0")
+                  li(data-target="#greetings-carousel", data-slide-to="1")
+                  li(data-target="#greetings-carousel", data-slide-to="2")
+                  li(data-target="#greetings-carousel", data-slide-to="3")
+
+        div.greetings-features__list
+          ul.greetings-features-list
+            each val in ['Контрольный осмотр подвески при последующем ремонте у нас БЕСПЛАТНО;', 'Экспресс-тест электронных систем, считывание кодов неисправности;', 'Консультация специалистов БЕСПЛАТНО;', 'Поставка запчастей. Мы предлагаем запчасти только надежных, хорошо зарекомендовавших себя, производителей.', 'Охраняемая стоянка для а/м в ожидании ремонта на 15 мест.']
+              li.greetings-features-item= val
+        div.greetings-features__button
+          button.button.button--blue.button--greetings  Записаться на СТО
+    div.greetings__labels
