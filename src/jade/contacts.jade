@@ -1,0 +1,55 @@
+//- contacts.jade
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Сервисный Центр ФАВОРИТ
+    //- todo
+    link(rel="stylesheet", href="vendor/reset.css")
+    //- link(rel="stylesheet", href="vendor/normalize.css")
+    link(rel="stylesheet", href="css/style.css")
+    //- script(src='vendor/jquery.js')
+    //- script(src='vendor/transition.js')
+    //- script(src='vendor/carousel.js')
+  body
+    div.wrapper
+      include ./header.jade
+      div.wrapper__cont-descr
+        div.cont-descr
+          div.cont-descr__upper-buttons
+            div.upper-buttons.cf
+              div.upper-buttons__btn-spares
+                button.button.button--pink.btn-spares Заказ запчастей
+              div.upper-buttons__btn-sto
+                button.button.button--blue.btn-sto Записаться на СТО
+          div.cont-descr__breadcrumbs
+            div.cont-descr-breadcrumbs
+              a.upper(href="#") Главная /
+              span  Контакты
+          div.cont-descr__title Контакты
+          div.cont-descr__text.cf
+            div.cont-descr-text
+              div.cont-descr-text-item.cont-descr-text__left
+                div.cont-descr-text-item
+                  dl.desct-text.cf
+                    dt.descr-term Адрес СТО:
+                      dd.desct-descr Дальневосточный пр. 36А
+                    dt.descr-term Контактное лицо:
+                      dd.desct-descr  Моисеев Кирилл Вячеславович
+                    dt.descr-term Телефон:
+                      dd.desct-descr  8 (999) 210-27-37
+              div.cont-descr-text-item.cont-descr-text__right
+                div.cont-descr-text-item
+                  dl.desct-text.cf
+                    dt.descr-term Email:
+                      dd.desct-descr  moook.email@gmail.com
+                    dt.descr-term Факс:
+                      dd.desct-descr  8 (999) 210-27-37
+          div.cont-descr__bottom-btn
+            button.button.button--grey.btn-spares Скачать реквизиты
+      div.wrapper__map
+        div.map
+
+
+      include ./footer.jade

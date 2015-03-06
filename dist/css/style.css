@@ -3819,3 +3819,56 @@ body {
   font-size: 14px;
   margin-left: 12px;
 }
+.cont-descr {
+  background: url(../img/contacts_bg.jpg);
+  padding: 25px 70px 80px 105px;
+  color: #898989;
+}
+.cont-descr-breadcrumbs {
+  font-family: 'robotothin', sans-serif;
+  font-size: 18px;
+  margin-top: 22px;
+}
+.cont-descr__text {
+  margin-top: 35px;
+}
+.cont-descr-text-item {
+  float: left;
+  width: 420px;
+  margin-left: 110px;
+}
+.cont-descr-text-item:first-child {
+  margin-left: 0;
+}
+.cont-descr__title {
+  font-family: 'robotoblack', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  margin-top: 25px;
+  padding-left: 105px;
+}
+.descr-term {
+  float: left;
+  font-family: 'robotolight', sans-serif;
+  font-size: 18px;
+  color: #c0c0c0;
+  padding-right: 5px;
+}
+.desct-descr {
+  font-family: 'robotregular', sans-serif;
+  font-size: 18px;
+  color: #2e2e2e;
+}
+.cont-descr__bottom-btn {
+  text-align: right;
+  margin-top: 30px;
+}
+.button--grey {
+  background: #898989;
+  border: 4px solid rgba(137, 137, 137, 0.5);
+}
+.map {
+  height: 561px;
+  background: blue;
+}
