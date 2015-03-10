@@ -9,10 +9,58 @@ html(lang="en")
     link(rel="stylesheet", href="vendor/reset.css")
     //- link(rel="stylesheet", href="vendor/normalize.css")
     link(rel="stylesheet", href="css/style.css")
-    //- script(src='vendor/jquery.js')
-    //- script(src='vendor/transition.js')
-    //- script(src='vendor/carousel.js')
+    script(src='vendor/jquery.js')
+    script(src='vendor/transition.js')
+    script(src='vendor/carousel.js')
+    script(src='js/main.js')
+      
   body
     div.wrapper
       include ./header.jade
+      div.wrapper__upper
+        div.upper
+          div.upper__buttons
+            div.upper-buttons.cf
+              div.upper-buttons__item
+                button.button.button--pink Заказ запчастей
+              div.upper-buttons__item
+                button.button.button--blue Записать на СТО
+      div.wrapper__about-text
+        div.about-text
+          div.about-text__breadcrumbs
+            div.breadcrumbs
+              a(href="./index.html") Главная /
+              span  О компании
+          div.about-text__title о компании
+          div.about-text__content
+            div.about-text-content.cf
+              div.about-text-content__col Наша компания работает с 1997 года. За 17 лет работы мы приобрели огромный опыт ремонта легковых автомобилей.Мы оснастили, станцию, наилучшим оборудованием известных брендов.В нашем распоряжении 3 d стенд развала схождения фирмы John Bean, шиномонтажный,компьютеризированный комплекс Beissbarth (германия),мойка для колес,подьемное оборудование Nussbaum (Германия). Автоматический комплекс заправки кондиционеров OK Clima (Spin  Италия ). Каждый специалист нашей компании пользуется профессиональным  инструментом Licota.
+              div.about-text-content__col С 2010 года наша компания занимается эксклюзивным производством установочных комплектов для установки автомобильных лебедок на внедорожники.Наше направление по производству называется AutoWinch.Мы с гордостью можем сказать что,на сегодняшний день,мы единственные на территории России,кто занимается производством установочных комплектов для установки лебедки и передних фаркопов в промышленных маcштабах.
+
+
+
+      div.wrapper__multi-carousel
+        div.multi-carousel.cf
+          div.multi-carousel__item.multi-carousel__arrow--left
+          div.multi-carousel__item.multi-carousel__multi-window
+            ul.multi-window
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+              li.multi-window__item
+                img.multi-window-item(src="img/car_multi.jpg",alt="")
+          div.multi-carousel__item.multi-carousel__arrow--right
+
+
       include ./footer.jade

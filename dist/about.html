@@ -6,6 +6,10 @@
     <title>Сервисный Центр ФАВОРИТ</title>
     <link rel="stylesheet" href="vendor/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/transition.js"></script>
+    <script src="vendor/carousel.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -22,14 +26,60 @@
             </nav>
           </div>
           <div class="header__tel">
-            <div class="tel">
-              <div class="tel__num">
-                <div class="num">8 (812) <span>143-33-45</span></div>
-              </div>
+            <div class="tel"><a href="tel:88121433345">
+                <div class="tel__num">
+                  <div class="num">8 (812) <span>143-33-45</span></div>
+                </div></a>
               <div class="tel__call"><a href="#" class="call">Перезвонить нам</a></div>
             </div>
           </div>
         </header>
+      </div>
+      <div class="wrapper__upper">
+        <div class="upper">
+          <div class="upper__buttons">
+            <div class="upper-buttons cf">
+              <div class="upper-buttons__item">
+                <button class="button button--pink">Заказ запчастей</button>
+              </div>
+              <div class="upper-buttons__item">
+                <button class="button button--blue">Записать на СТО</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper__about-text">
+        <div class="about-text">
+          <div class="about-text__breadcrumbs">
+            <div class="breadcrumbs"><a href="./index.html">Главная /</a><span> О компании</span></div>
+          </div>
+          <div class="about-text__title">о компании</div>
+          <div class="about-text__content">
+            <div class="about-text-content cf">
+              <div class="about-text-content__col">Наша компания работает с 1997 года. За 17 лет работы мы приобрели огромный опыт ремонта легковых автомобилей.Мы оснастили, станцию, наилучшим оборудованием известных брендов.В нашем распоряжении 3 d стенд развала схождения фирмы John Bean, шиномонтажный,компьютеризированный комплекс Beissbarth (германия),мойка для колес,подьемное оборудование Nussbaum (Германия). Автоматический комплекс заправки кондиционеров OK Clima (Spin  Италия ). Каждый специалист нашей компании пользуется профессиональным  инструментом Licota.</div>
+              <div class="about-text-content__col">С 2010 года наша компания занимается эксклюзивным производством установочных комплектов для установки автомобильных лебедок на внедорожники.Наше направление по производству называется AutoWinch.Мы с гордостью можем сказать что,на сегодняшний день,мы единственные на территории России,кто занимается производством установочных комплектов для установки лебедки и передних фаркопов в промышленных маcштабах.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper__multi-carousel">
+        <div class="multi-carousel cf">
+          <div class="multi-carousel__item multi-carousel__arrow--left"></div>
+          <div class="multi-carousel__item multi-carousel__multi-window">
+            <ul class="multi-window">
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+              <li class="multi-window__item"><img src="img/car_multi.jpg" alt="" class="multi-window-item"/></li>
+            </ul>
+          </div>
+          <div class="multi-carousel__item multi-carousel__arrow--right"></div>
+        </div>
       </div>
       <div class="wrapper__footer">
         <footer class="footer">

@@ -27,7 +27,7 @@
 
 .cont-descr-text-item{
   float: left;
-  width: 420px;
+  width: 440px;
   margin-left: 110px;
   &:first-child{
     margin-left: 0;
@@ -66,8 +66,17 @@
 }
 
 .button--grey{
+  width: 250px;
   background: @grey;
+  background-clip: padding-box;
   border: 4px solid rgba(137, 137, 137, .5);
+
+  // background: @blue;
+  // border: 4px solid rgba(77,115,182,.5);
+  &:hover{
+    border-color: @grey;
+  }
+
 }
 
 .map{

@@ -15,5 +15,3 @@ var multiCarousel = (function () {
     }
   }
 })();
-// initialize multi-carousel
-multiCarousel.init();
