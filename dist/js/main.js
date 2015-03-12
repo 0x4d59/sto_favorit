@@ -5,7 +5,10 @@ var multiCarousel = (function () {
   return {
     init: function () {
       console.log('initialize');
-      console.log(arrowLeft);
+      console.log('this is arrows ',
+        arrowLeft,
+        arrowRight
+      );
       arrowLeft.on('click', function () {
         console.log('you click left arrow');
       });
