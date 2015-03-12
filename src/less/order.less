@@ -1,6 +1,6 @@
 // order.less
 
-.carousel-indicators{
+.order-indicators{
   li{
     height: 18px;
     width: 18px;
@@ -49,16 +49,25 @@
   font-family: 'robotobold', sans-serif;
   font-size: 18px;
   color: @white;
+  cursor: pointer;
 }
 
 .button--blue{
   background: @blue;
-  border: 4px solid rgba(77, 115, 182, .0);
+  background-clip: padding-box;
+  border: 4px solid rgba(77,115,182,.5);
+  &:hover{
+    border-color: @blue;
+  }
 }
 
 .button--pink{
   background: @pink;
+  background-clip: padding-box;
   border: 4px solid rgba(255, 102, 102, .5);
+  &:hover{
+    border-color: @pink;
+  }
 }
 
 .description{
@@ -79,6 +88,7 @@
 .description__sub{
   font-family: 'robotolight', sans-serif;
   line-height: 35px;
+  margin-top: 15px;
 }
 
 .carousel-item__bottom-button{

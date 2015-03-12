@@ -1,0 +1,93 @@
+// about.less
+
+
+// wrapper__upper
+.upper{
+  background: url('../img/place.jpg') no-repeat;
+  height: image-height("../../dist/img/place.jpg");
+  padding: 25px 75px 0 0;
+}
+
+// wrapper__about-text
+
+.about-text{
+  background: @white;
+  padding: 45px 0 0 105px;
+}
+
+.about-text__title{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: 'robotoblack', sans-serif;
+  margin-top: 25px;
+}
+
+.about-text-content{
+  margin-top: 30px;
+  line-height: 36px;
+}
+
+.about-text-content__col{
+  font-family: 'robotothin', sans-serif;
+  font-size: 18px;
+  color: @grey;
+
+  float: left;
+  width: 480px;
+  margin-left: 55px;
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+// multi-carousel
+.wrapper__multi-carousel{
+  background: @white;
+  padding: 85px 0 35px 35px;
+}
+
+.multi-carousel__item{
+  float: left;
+}
+
+.multi-carousel__arrow--left{
+  background: url('../img/sprites/arrow_about_left.png') no-repeat;
+  height: image-height('../../dist/img/sprites/arrow_about_left.png');
+  width: image-width('../../dist/img/sprites/arrow_about_left.png');
+  margin-top: 65px;
+  cursor: pointer;
+  &:hover{
+    background: url('../img/sprites/arrow_about_left_hover.png') no-repeat;
+  }
+}
+.multi-carousel__arrow--right{
+  background: url('../img/sprites/arrow_about_right.png') no-repeat;
+  height: image-height('../../dist/img/sprites/arrow_about_right.png');
+  width: image-width('../../dist/img/sprites/arrow_about_right.png');
+  margin-top: 65px;
+  margin-left: 35px;
+  cursor: pointer;
+  &:hover{
+    background: url('../img/sprites/arrow_about_right_hover.png') no-repeat;
+  }
+}
+
+.multi-carousel__multi-window{
+  margin-left: 35px;
+}
+
+.multi-window{
+  // border: 1px solid;
+  text-align: center;
+  overflow: hidden;
+  width: 1065px;
+  height: 180px;
+}
+
+.multi-window__item{
+  display: inline-block;
+  &:first-child{
+    margin-left: 0;
+  }
+  margin-left: 10px;
+}

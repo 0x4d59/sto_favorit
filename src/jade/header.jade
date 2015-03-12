@@ -2,20 +2,25 @@
 div.wrapper__header
   header.header.cf
     div.header__logo
-      a(href="#")
+      a(href="./index.html")
         div.logo Сервисный Центр 
           span Фаворит
     div.header__nav
       nav.nav
         ul.nav-list
-          each val in ['о компании', 'корпоративным клиентам', 'контакты']
-            a(href="#")
-              li.nav-item= val
+          a(href="./about.html")
+            li.nav-item о компании
+          a(href="./corporal.html")
+            li.nav-item корпоративным клиентам
+          a(href="./contacts.html")
+            li.nav-item контакты
+
     div.header__tel
       div.tel
-        div.tel__num
-          div.num 8 (812) 
-            span 143-33-45
+        a(href="tel:88121433345")
+          div.tel__num
+            div.num 8 (812) 
+              span 143-33-45
         div.tel__call
           a.call(href="#") Перезвонить нам
     
