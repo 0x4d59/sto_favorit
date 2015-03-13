@@ -3384,7 +3384,8 @@ body {
   background: #141414;
 }
 .wrapper {
-  width: 1280px;
+  width: 100%;
+  min-width: 1280px;
   margin: 0 auto;
 }
 .header {
@@ -3423,8 +3424,7 @@ body {
   color: #898989;
 }
 .header__tel {
-  float: left;
-  margin-left: 85px;
+  float: right;
 }
 .num {
   font-family: 'robotolight', sans-serif;
