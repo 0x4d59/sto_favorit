@@ -3444,6 +3444,10 @@ body {
   font-size: 14px;
   text-decoration: underline;
 }
+.wrapper__order {
+  width: 1280px;
+  margin: 0 auto;
+}
 .order-indicators li {
   height: 18px;
   width: 18px;
@@ -3524,13 +3528,17 @@ body {
 .carousel-item__bottom-button {
   margin-top: 25px;
 }
-.list {
-  height: 456px;
+.wrapper-list {
   background: url(../img/bg2.jpg) no-repeat;
+  background-size: 100%;
+}
+.list {
+  width: 1000px;
+  height: 456px;
   font-family: ;
   color: #ffffff;
   padding-top: 45px;
-  padding-left: 230px;
+  margin: 0 auto;
 }
 .list__item {
   float: left;
