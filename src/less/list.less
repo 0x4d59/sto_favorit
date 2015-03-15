@@ -1,18 +1,32 @@
 // list.less
+.wrapper__list{
+
+}
+
+.wrapper-list{
+  background: url(../img/bg2.jpg) no-repeat;
+  background-size: 100%;
+}
 
 .list{
-  height: 456px;
-  background: url(../img/bg2.jpg) no-repeat;
+  width: 1000px;
+  // width: 900px;
+  height: 450px;
+  // height: 456px;
   font-family: ;
   color: @white;
   padding-top: 45px;
-  padding-left: 310px - 80px;
+  // padding-left: 310px - 80px;
+  margin: 0 auto;
 }
 
 .list__item{
   float: left;
   width: 410px;
   margin-left: 80px;
+  &:first-child{
+    // margin-left: 0;
+  }
 }
 .list-item-title{
   font-family: 'robotobold', sans-serif;
