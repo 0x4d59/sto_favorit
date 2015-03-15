@@ -3385,7 +3385,7 @@ body {
 }
 .wrapper {
   width: 100%;
-  min-width: 1280px;
+  min-width: 1260px;
   margin: 0 auto;
 }
 .header {
@@ -3445,8 +3445,7 @@ body {
   text-decoration: underline;
 }
 .wrapper__order {
-  width: 1280px;
-  margin: 0 auto;
+  width: 100%;
 }
 .order-indicators li {
   height: 18px;
@@ -3468,15 +3467,19 @@ body {
 }
 .carousel-item--one {
   background: url(../img/bg1.jpg) no-repeat;
+  background-size: 100%;
 }
 .carousel-item--two {
   background: url(../img/bg12.jpg) no-repeat;
+  background-size: 100%;
 }
 .carousel-item--three {
   background: url(../img/bg1.jpg) no-repeat;
+  background-size: 100%;
 }
 .carousel-item--four {
   background: url(../img/bg12.jpg) no-repeat;
+  background-size: 100%;
 }
 .upper-buttons .button {
   float: right;
@@ -3534,7 +3537,7 @@ body {
 }
 .list {
   width: 1000px;
-  height: 456px;
+  height: 450px;
   font-family: ;
   color: #ffffff;
   padding-top: 45px;
@@ -3576,6 +3579,7 @@ body {
   color: #898989;
   margin-top: 40px;
   margin-left: 216px;
+  width: 970px;
 }
 .greetings-features__title {
   font-family: 'robotoregular', sans-serif;
@@ -3655,10 +3659,14 @@ body {
   margin-left: 15px;
   margin-top: 30px;
 }
-.repair {
-  height: 683px;
+.wrapper__repair {
   background: url(../img/bg3.jpg) no-repeat;
-  padding: 75px 0 0px 90px;
+  background-size: 100%;
+}
+.repair {
+  padding: 75px 0 50px 90px;
+  width: 1260px;
+  margin: 0 auto;
 }
 .repair__title {
   font-size: 30px;
@@ -3704,14 +3712,19 @@ body {
   margin-top: 50px;
 }
 .review-list-item {
-  float: left;
   margin-left: 100px;
 }
 .review-list-item:first-child {
   margin-left: 0;
 }
+.review-list-item--one {
+  float: left;
+}
 .review-list-item--one .review-item-person__photo {
   background: url(../img/avatar1.png) no-repeat;
+}
+.review-list-item--two {
+  float: right;
 }
 .review-list-item--two .review-item-person__photo {
   background: url(../img/avatar2.png) no-repeat;
@@ -3744,9 +3757,9 @@ body {
   margin-top: 75px;
 }
 .social {
-  background: url(../img/bg4.jpg);
-  height: 496px;
-  padding: 64px 0 0 0;
+  background: url(../img/bg4.jpg) no-repeat;
+  background-size: 100%;
+  padding: 64px 0 37px 0;
 }
 .social__title {
   color: #ffffff;
@@ -3757,7 +3770,7 @@ body {
 }
 .social__vidgets {
   width: 690px;
-  margin: 52px auto;
+  margin: 52px auto 0;
 }
 .social-vidgets__vk {
   float: left;
