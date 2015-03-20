@@ -7,12 +7,9 @@ html(lang="en")
     title Сервисный Центр ФАВОРИТ
     //- todo
     link(rel="stylesheet", href="vendor/reset.css")
-    //- link(rel="stylesheet", href="vendor/normalize.css")
     link(rel="stylesheet", href="css/style.css")
-    script(src='vendor/jquery.js')
-    //- script(src='vendor/transition.js')
-    //- script(src='vendor/carousel.js')
-    script(src='js/main.js')
+    //- script(src="http://api-maps.yandex.ru/2.1/?lang=ru_RU")
+    
     
   body
     div.wrapper
@@ -51,7 +48,12 @@ html(lang="en")
           div.cont-descr__bottom-btn
             button.button.button--grey.btn-spares Скачать реквизиты
       div.wrapper__map
-        div.map
+        div#map
 
 
       include ./footer.jade
+    //- yandex map
+    script(src="http://api-maps.yandex.ru/2.1/?lang=ru_RU")
+    script(src='../src/js/yaMap.js')
+    //- end yandex map
+

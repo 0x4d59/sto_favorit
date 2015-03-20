@@ -3774,10 +3774,10 @@ body {
 }
 .social-vidgets__vk {
   float: left;
+  height: 290px;
 }
 .social-vidgets-vk {
   width: 300px;
-  height: 295px;
   background: red;
 }
 .social-vidgets__instagram {
@@ -3910,9 +3910,8 @@ body {
 .button--grey:hover {
   border-color: #898989;
 }
-.map {
+#map {
   height: 561px;
-  background: blue;
 }
 .wrapper__corporal {
   background: #ffffff;

@@ -6,10 +6,6 @@
     <title>Сервисный Центр ФАВОРИТ</title>
     <link rel="stylesheet" href="vendor/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="vendor/jquery.js"></script>
-    <script src="vendor/transition.js"></script>
-    <script src="vendor/carousel.js"></script>
-    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -288,10 +284,11 @@
           <div class="social__vidgets">
             <div class="social-vidgets cf">
               <div class="social-vidgets__vk">
-                <div class="social-vidgets-vk"></div>
+                <div id="vk_groups"></div>
               </div>
               <div class="social-vidgets__instagram">
-                <div class="social-vidgets-instagram"></div>
+                <div class="social-vidgets-instagram"><iframe src='vendor/inwidget/index.php?toolbar=false' scrolling='no' frameborder='no' style='border:none;width:260px;height:320px;overflow:hidden;'></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -339,5 +336,10 @@
         </footer>
       </div>
     </div>
+    <script src="http://vk.com/js/api/openapi.js?116"></script>
+    <script src="../src/js/vkWidget.js"></script>
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/transition.js"></script>
+    <script src="vendor/carousel.js"></script>
   </body>
 </html>

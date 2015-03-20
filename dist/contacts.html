@@ -6,8 +6,7 @@
     <title>Сервисный Центр ФАВОРИТ</title>
     <link rel="stylesheet" href="vendor/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <script src="vendor/jquery.js"></script>
-    <script src="js/main.js"></script>
+    
   </head>
   <body>
     <div class="wrapper">
@@ -86,7 +85,7 @@
         </div>
       </div>
       <div class="wrapper__map">
-        <div class="map"></div>
+        <div id="map"></div>
       </div>
       <div class="wrapper__footer">
         <footer class="footer">
@@ -130,5 +129,7 @@
         </footer>
       </div>
     </div>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="../src/js/yaMap.js"></script>
   </body>
 </html>
