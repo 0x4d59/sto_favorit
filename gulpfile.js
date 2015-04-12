@@ -34,10 +34,11 @@ gulp.task('scriptConcat', function() {
  // jade
 gulp.task('jade', function() {
   gulp.src([
-      'src/jade/index.jade', 
+      'src/jade/index.jade',
       'src/jade/contacts.jade',
       'src/jade/about.jade',
-      'src/jade/corporal.jade'
+      'src/jade/corporal.jade',
+      'src/jade/modal_service.jade'
     ])
     .pipe(jade({
       pretty: true

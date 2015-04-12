@@ -4036,3 +4036,12 @@ body {
 .multi-window__item:first-child {
   margin-left: 0;
 }
+.mod-serv-form {
+  font-family: 'robotobold', sans-serif;
+  color: red;
+  font-size: 40px;
+}
+.change-auto-form__title {
+  font-family: 'robotoblack', sans-serif;
+  color: blue;
+}
